@@ -1,0 +1,37 @@
+table th{
+    width:6.25rem;
+    padding: 1rem;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(1) > th {
+    background-color: orange;
+}
+
+td[colspan]{
+    text-align: center;
+    background-color:beige;
+    font-weight: bold;
+}
+.lengua{
+    background-color:rgba(32, 146, 227, 0.367);
+}
+.religion{
+    background-color:chocolate;
+}
+td{
+    font-size:1.52rem;
+}
+tr:nth-of-type(2) > th,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(4) > th ,
+tr:nth-of-type(5) > th ,
+tr:nth-of-type(6) > th ,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th {
+
+    background-color: greenyellow;
+
+}
